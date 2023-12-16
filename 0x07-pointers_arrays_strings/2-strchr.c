@@ -9,10 +9,10 @@
   *
   * Return: Always 0.
   */
-unsigned int _strspn(char *s, char *accept)
+unsigned int _strspr(char *s, char *accept)
 {
 
-	unsigned int _strspn(char *s, char *accept);
+	unsigned int _strspr(char *s, char *accept);
 	unsigned int i = 0;
 	int k;
 
@@ -31,5 +31,6 @@ unsigned int _strspn(char *s, char *accept)
 	s++;
 	}
 	return (i);
+
 }
 
